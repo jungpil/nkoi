@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<simulation>
+	<case>
+		<runs>10</runs>
+		<inf>./inf/n20k19.txt</inf>
+
+		<strategy> closed </strategy>
+
+		<strategy> alliance_max </strategy>
+
+		<strategy> alliance_min </strategy>
+		<strategy> outsourcing </strategy>
+
+		<strategy>licensing </strategy>
+		<innovator>
+			<num>100</num>
+			<power>1</power>
+			<M>12</M>
+			<P>2</P>
+		</innovator>
+		<innovator>
+			<num>100</num>
+			<power>2</power>
+			<M>10</M>
+			<P>2</P>
+		</innovator>
+		<provider>
+			<num>100</num>
+			<power>1</power>
+			<Q>5</Q>
+		</provider>
+		<provider>
+			<num>100</num>
+			<power>2</power>
+			<Q>4</Q>
+		</provider>
+	</case>
+</simulation>
